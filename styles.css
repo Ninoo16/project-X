@@ -1,0 +1,85 @@
+body {
+    display:flex;
+    flex-direction: column;
+}
+.hero {display: flex;
+flex-direction: column;
+background-color: #1f2937;
+color:white;
+padding: 2em;
+
+}
+.header {display: flex;
+justify-content: center;
+height: 150px;
+font-size: 24px;
+color: #f9faf8;
+font-weight: bold;
+gap: 450px;
+ }
+
+ul {display:flex;
+    gap: 50px;
+}
+a {
+    text-decoration: none;
+    color:#e5e7eb;
+    font-size: 18px;
+    font-weight: 100;
+     
+}
+.main-title { display: flex;
+justify-content: center;
+gap: 70px;
+
+}
+.lone {display: flex;
+flex-direction: column;
+width: 400px;
+}
+
+#chik { 
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+sub { 
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button { background-color: #3882f6;
+color: #f9faf8;
+width: 100px;
+height: 40px;}
+.main {display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.top-txt {
+   font-size: 36px;
+   font-weight: bold;
+   color: #1f2937;
+}
+.fours {
+    border: 2px solid red;
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+.big { display: flex;
+justify-content: space-around;
+margin-bottom: 100px;
+gap: 100px;
+height: 150px;
+width: 70em;
+background-color: #1f2937;}
+.subtext {
+    color: black;
+    
+}
+.small {background-color: #e5e7eb;
+display: flex;
+flex-direction: column;
+width: 100px;}
+
