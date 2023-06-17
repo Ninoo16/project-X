@@ -7,7 +7,6 @@ flex-direction: column;
 background-color: #1f2937;
 color:white;
 padding: 2em;
-
 }
 .header {display: flex;
 justify-content: center;
@@ -21,18 +20,19 @@ gap: 450px;
 ul {display:flex;
     gap: 50px;
 }
+
 a {
     text-decoration: none;
     color:#e5e7eb;
     font-size: 18px;
-    font-weight: 100;
-     
+    font-weight: 100;  
 }
+
 .main-title { display: flex;
 justify-content: center;
 gap: 70px;
-
 }
+
 .lone {display: flex;
 flex-direction: column;
 width: 400px;
@@ -43,6 +43,7 @@ width: 400px;
     font-weight: 900;
     color: #f9faf8;
 }
+
 sub { 
     font-size: 18px;
     color: #e5e7eb;
@@ -50,10 +51,13 @@ sub {
 button { background-color: #3882f6;
 color: #f9faf8;
 width: 100px;
-height: 40px;}
+height: 40px;
+}
+
 .main {display: flex;
 align-items: center;
 flex-direction: column;
+padding: 25px;
 }
 
 .top-txt {
@@ -62,24 +66,35 @@ flex-direction: column;
    color: #1f2937;
 }
 .fours {
-    border: 2px solid red;
-    height: 40px;
-    width: 40px;
+    border: 4px solid #3882f6;
+    height: 150px;
+    width: 150px;
     display: flex;
 }
 .big { display: flex;
 justify-content: space-around;
+margin: 40px auto;
 margin-bottom: 100px;
 gap: 100px;
 height: 150px;
 width: 70em;
-background-color: #1f2937;}
-.subtext {
-    color: black;
-    
+
 }
-.small {background-color: #e5e7eb;
+
+.subtext {
+    color: black; 
+}
+
+.small {
 display: flex;
 flex-direction: column;
-width: 100px;}
+width: 150px;
+height: max-content;
+gap: 5px;}
+
+.quotes {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 10em;
+}
 
